@@ -28,27 +28,31 @@ Containerization: Docker Compose
 **1. Clone Repository**
 ```bash
 git clone <repository-url>
-
-### 2. Start Database (Docker)
+```
+**2. Start Database**
+```bash
 docker-compose up -d
-
-### 3. Configure Database
+```
+**3. Configure Database**
+```bash
 Update application.yml:
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce_db
 spring.datasource.username=postgres
 spring.datasource.password=password
-
-### 4. Build Project
+```
+**4. Build Project**
+```bash
 mvn clean install
-
-### 5. Run Project
+```
+**5. Run Project**
+```bash
 mvn spring-boot:run
-
+```
 OR
-
+```bash
 java -jar target/ecommerce-0.0.1-SNAPSHOT.jar
-
+```
 ---
 
 ## 📡 API Endpoints
