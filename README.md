@@ -79,6 +79,7 @@ java -jar target/ecommerce-0.0.1-SNAPSHOT.jar
 - payments
 
 🏢 Code Structure
+```
 com.ecommerce
 │
 ├── EcommerceApplication.java
@@ -162,7 +163,7 @@ com.ecommerce
 └── audit/
     ├── Auditable.java
     └── AuditConfig.java
-
+```
 ##📊 Visual Documentation
 
 ### 1. Application Execution
@@ -209,9 +210,9 @@ To validate the application's reliability, the following scenarios were tested u
 1 Scenario: Order creation with out-of-stock product.
 2 Input: POST /api/orders
 3 Expected Output: HTTP 400 Bad Request (handled by InsufficientStockException).
-
-##🧩 ER Diagram
-
+```
+##🧩 ER Diagra
+```
 The system follows a relational database design:
 - One User → Many Orders  
 - One Order → Many OrderItems  
@@ -219,6 +220,7 @@ The system follows a relational database design:
 - One Order → One Payment
 
 ##🏗️ System Architecture Diagram
+```
 Show full flow:
 Client (Postman / UI)
         ↓
@@ -229,10 +231,10 @@ Service Layer (Business Logic)
 Repository Layer (JPA)
         ↓
 PostgreSQL Database
-
+```
 🔄 API Flow Diagram
 Example: Order Creation Flow
-
+```
 User → POST /orders
         ↓
 OrderService
@@ -244,7 +246,7 @@ Create Order + OrderItems
 Save to DB
         ↓
 Return Response
-
+```
 Name: Neha Jaiswal
 Education: BCA + MCA dual degree
 Location: Delhi, India
