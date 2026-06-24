@@ -1,0 +1,20 @@
+CREATE TABLE categories(
+id BIGSERIAL PRIMARY KEY,
+name VARCHAR(255)
+);
+
+CREATE TABLE users(
+id BIGSERIAL PRIMARY KEY,
+name VARCHAR(255),
+email VARCHAR(255),
+password VARCHAR(255),
+role VARCHAR(50)
+);
+
+CREATE TABLE products(
+id BIGSERIAL PRIMARY KEY,
+name VARCHAR(255),
+price DOUBLE PRECISION,
+stock INT,
+category_id BIGINT REFERENCES categories(id)
+);
