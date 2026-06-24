@@ -167,15 +167,14 @@ com.ecommerce
 ##📊 Visual Documentation
 
 ### 1. Application Execution
-![Application Startup](images/applicationrunning.png)
-
-![Application Startup](images/Application%20Running2.png)
+![Application Startup](applicationrunning.png)
+![Application Startup](Application%20Running2.png)
 
 ### 2. API Functionality
-![API Response](images/API%20Functionality.png)
+![API Response](API%20Functionality.png)
 
 ### 3. Database Connection
-![Database Management](images/Database%20Connection.png)
+![Database Management](Database%20Connection.png)
 
 ##🔬 Technical Details
 Architecture Overview
