@@ -1,4 +1,4 @@
-🛒 E-Commerce Backend System (Spring Boot + PostgreSQL)
+🛒 E-Commerce Backend System 
 
 A comprehensive backend system for an e-commerce platform built using Spring Boot, Spring Data JPA, PostgreSQL, and Flyway. This project demonstrates real-world backend architecture including database design, transaction management, performance optimization, and RESTful API development.
 
@@ -247,6 +247,6 @@ Save to DB
         ↓
 Return Response
 ```
-Name: Neha Jaiswal
-Education: BCA + MCA dual degree
-Location: Delhi, India
+1 Name: Neha Jaiswal
+2 Education: BCA + MCA dual degree
+3 Location: Delhi, India
