@@ -83,91 +83,23 @@ java -jar target/ecommerce-0.0.1-SNAPSHOT.jar
 - order_items
 - payments
 
-🏢 Code Structure
-```
-com.ecommerce
-│
-├── EcommerceApplication.java
-│
-├── config/
-│   ├── SecurityConfig.java
-│   ├── DatabaseConfig.java
-│   ├── CacheConfig.java
-│   └── OpenApiConfig.java
-│
-├── controller/
-│   ├── AuthController.java
-│   ├── UserController.java
-│   ├── ProductController.java
-│   ├── OrderController.java
-│   └── PaymentController.java
-│
-├── service/
-│   ├── impl/
-│   │   ├── UserServiceImpl.java
-│   │   ├── ProductServiceImpl.java
-│   │   ├── OrderServiceImpl.java
-│   │   └── PaymentServiceImpl.java
-│   │
-│   ├── UserService.java
-│   ├── ProductService.java
-│   ├── OrderService.java
-│   └── PaymentService.java
-│
-├── repository/
-│   ├── UserRepository.java
-│   ├── ProductRepository.java
-│   ├── OrderRepository.java
-│   └── PaymentRepository.java
-│
-├── entity/
-│   ├── User.java
-│   ├── Product.java
-│   ├── Category.java
-│   ├── Order.java
-│   ├── OrderItem.java
-│   └── Payment.java
-│
-├── dto/
-│   ├── request/
-│   │   ├── UserRequestDTO.java
-│   │   ├── ProductRequestDTO.java
-│   │   ├── OrderRequestDTO.java
-│   │
-│   ├── response/
-│   │   ├── UserResponseDTO.java
-│   │   ├── ProductResponseDTO.java
-│   │   ├── OrderResponseDTO.java
-│
-├── mapper/
-│   ├── UserMapper.java
-│   ├── ProductMapper.java
-│   └── OrderMapper.java
-│
-├── exception/
-│   ├── GlobalExceptionHandler.java
-│   ├── ResourceNotFoundException.java
-│   ├── InsufficientStockException.java
-│   └── PaymentFailedException.java
-│
-├── security/
-│   ├── JwtAuthFilter.java
-│   ├── JwtService.java
-│   └── CustomUserDetailsService.java
-│
-├── enums/
-│   ├── Role.java
-│   ├── OrderStatus.java
-│   └── PaymentStatus.java
-│
-├── util/
-│   ├── AppConstants.java
-│   ├── ResponseUtil.java
-│   └── PaginationUtil.java
-│
-└── audit/
-    ├── Auditable.java
-    └── AuditConfig.java
+### 📂 Code Structure
+```text
+week7-ecommerce-backend/
+├── src/main/java/com/ecommerce/
+│   ├── EcommerceApplication.java
+│   ├── controller/      # API Endpoints
+│   ├── service/         # Business Logic
+│   ├── repository/      # Database Access
+│   ├── model/           # Entities, DTOs, and Enums
+│   ├── config/          # Security & Database configs
+│   └── exception/       # Custom Exception Handling
+├── src/main/resources/
+│   ├── db/migration/    # Flyway Migration Scripts
+│   └── application.yml  # Application Configuration
+├── docker-compose.yml   # Docker Infrastructure
+├── pom.xml              # Maven Dependencies
+└── README.md            # Project Documentation
 ```
 ##📊 Visual Documentation
 
