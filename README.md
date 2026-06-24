@@ -247,6 +247,7 @@ Save to DB
         ↓
 Return Response
 ```
-1 Name: Neha Jaiswal
-2 Education: BCA + MCA dual degree
-3 Location: Delhi, India
+### 👤 Personal Details
+* **Name:** Neha Jaiswal
+* **Education:** BCA + MCA dual degree
+* **Location:** Delhi, India
