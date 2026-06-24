@@ -25,8 +25,9 @@ Containerization: Docker Compose
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone Repository
-git clone <your-repo-url>
+**1. Clone Repository**
+```bash
+git clone <repository-url>
 
 ### 2. Start Database (Docker)
 docker-compose up -d
